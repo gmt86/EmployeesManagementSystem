@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\TP Asp.net Core MVC\EmployeesManagement\EmployeesManagement\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-10-06T06:39:11.3764272Z||;False|2024-10-06T08:25:25.7256214+02:00||;True|2024-10-06T08:19:48.6727281+02:00||;True|2024-10-05T17:42:12.2817555+02:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=DESKTOP-DCC8K40\MSSQLSERVER22%3bInitial Catalog=EmployeDb%3bIntegrated Security=True%3bEncrypt=True%3bTrust Server Certificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

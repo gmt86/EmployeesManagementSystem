@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TP Asp.net Core MVC\\EmployeesManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2DEA53-BA2F-4B0E-BAB1-AC3C7DA702C6}|EmployeesManagement\\EmployeesManagement.csproj|d:\\tp asp.net core mvc\\employeesmanagement\\employeesmanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE2DEA53-BA2F-4B0E-BAB1-AC3C7DA702C6}|EmployeesManagement\\EmployeesManagement.csproj|solutionrelative:employeesmanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2DEA53-BA2F-4B0E-BAB1-AC3C7DA702C6}|EmployeesManagement\\EmployeesManagement.csproj|d:\\tp asp.net core mvc\\employeesmanagement\\employeesmanagement\\views\\employes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE2DEA53-BA2F-4B0E-BAB1-AC3C7DA702C6}|EmployeesManagement\\EmployeesManagement.csproj|solutionrelative:employeesmanagement\\views\\employes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2DEA53-BA2F-4B0E-BAB1-AC3C7DA702C6}|EmployeesManagement\\EmployeesManagement.csproj|d:\\tp asp.net core mvc\\employeesmanagement\\employeesmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE2DEA53-BA2F-4B0E-BAB1-AC3C7DA702C6}|EmployeesManagement\\EmployeesManagement.csproj|solutionrelative:employeesmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TP Asp.net Core MVC\\EmployeesManagement\\EmployeesManagement\\Views\\Employes\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmployeesManagement\\Views\\Employes\\Index.cshtml",
+              "ToolTip": "D:\\TP Asp.net Core MVC\\EmployeesManagement\\EmployeesManagement\\Views\\Employes\\Index.cshtml",
+              "RelativeToolTip": "EmployeesManagement\\Views\\Employes\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEAAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-05T10:17:18.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TP Asp.net Core MVC\\EmployeesManagement\\EmployeesManagement\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmployeesManagement\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\TP Asp.net Core MVC\\EmployeesManagement\\EmployeesManagement\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EmployeesManagement\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-05T09:29:40.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\TP Asp.net Core MVC\\EmployeesManagement\\EmployeesManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EmployeesManagement\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\TP Asp.net Core MVC\\EmployeesManagement\\EmployeesManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EmployeesManagement\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAG8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T11:36:42.172Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
