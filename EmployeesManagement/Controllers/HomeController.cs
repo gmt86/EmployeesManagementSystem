@@ -14,8 +14,12 @@ namespace EmployeesManagement.Controllers
         }
 
         public IActionResult Index()
-        {
-            return View();
+        {          
+            //return !User.Identity.IsAuthenticated ? this.Redirect("~/Identity/Account/Login") : this.Redirect("index");
+            //return User.Identity.IsAuthenticated ? this.Redirect("index")  : this.Redirect("~/Identity/Account/Login");
+            return !User.Identity.IsAuthenticated ? this.Redirect("~/Identity/Account/Login"): View()  ;
+            //return Redirect("~/Identity/Account/Login");
+            
         }
 
         public IActionResult Privacy()

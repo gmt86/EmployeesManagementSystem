@@ -1,0 +1,81 @@
+﻿@model IEnumerable<EmployeesManagement.Models.Audit>
+
+@{
+    ViewData["Title"] = "System Audit Logs";
+}
+
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">System Audit Logs List</h3>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body">
+        <table id="example1" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.UserId)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.AuditType)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TableName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DateTime)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.OldValue)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NewValue)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.AffectedColumns)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PrimaryKey)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UserId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.AuditType)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TableName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DateTime)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.OldValue)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NewValue)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.AffectedColumns)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PrimaryKey)
+                        </td>
+                        <td>                            
+                            <a asp-action="Details" asp-route-id="@item.Id">Details</a> 
+                            @*<a asp-action="Delete" asp-route-id="@item.Id">Delete</a>*@
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

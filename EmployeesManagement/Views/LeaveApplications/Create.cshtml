@@ -1,0 +1,86 @@
+﻿@model EmployeesManagement.Models.LeaveApplication
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="card">
+    <div class="card-header">LeaveApplication</div>
+    <form asp-action="Create">
+        <div class="row">
+            <div class="col-md-4">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="EmployeId" class="control-label"></label>
+                    <select asp-for="EmployeId" class="form-control" asp-items="ViewBag.EmployeId"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NoOfDays" class="control-label"></label>
+                    <input asp-for="NoOfDays" class="form-control" />
+                    <span asp-validation-for="NoOfDays" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="StartDate" class="control-label"></label>
+                    <input asp-for="StartDate" class="form-control" />
+                    <span asp-validation-for="StartDate" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="EndDate" class="control-label"></label>
+                    <input asp-for="EndDate" class="form-control" />
+                    <span asp-validation-for="EndDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DurationId" class="control-label"></label>
+                    <select asp-for="DurationId" class="form-control" asp-items="ViewBag.DurationId"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LeaveTypeId" class="control-label"></label>
+                    <select asp-for="LeaveTypeId" class="form-control" asp-items="ViewBag.LeaveTypeId"></select>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Attachement" class="control-label"></label>
+                    <input asp-for="Attachement" class="form-control" />
+                    <span asp-validation-for="Attachement" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                    @*<input asp-for="Description" class="form-control" />*@
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                @*<div class="form-group">
+                    <label asp-for="StatusId" class="control-label"></label>
+                    <select asp-for="StatusId" class ="form-control" asp-items="ViewBag.StatusId"></select>
+                    </div>*@
+            </div>
+        </div>
+
+        <div class="row">
+
+            <input type="submit" value="Create" class="btn btn-primary" />
+            <a asp-action="Index" class="btn btn-sm  btn-warning">Back to List<i class="fa fa-forward"></i></a>
+
+            @*<a asp-action="Create" class="btn btn-sm  btn-primary"><i class="fa fa-pen"></i>Save</a> |
+                @*<a asp-action="Index" class="btn btn-sm  btn-warning">Back to List<i class="fa fa-forward"></i></a>*@
+        </div>
+
+        @*<div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+            <div>
+                <a asp-action="Index" class="btn btn-warning">Back to List</a>
+            </div>*@
+    </form>
+</div>
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

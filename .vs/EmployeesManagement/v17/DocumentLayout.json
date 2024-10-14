@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\TP Asp.net Core MVC\\EmployeesManagement\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2DEA53-BA2F-4B0E-BAB1-AC3C7DA702C6}|EmployeesManagement\\EmployeesManagement.csproj|d:\\tp asp.net core mvc\\employeesmanagement\\employeesmanagement\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2DEA53-BA2F-4B0E-BAB1-AC3C7DA702C6}|EmployeesManagement\\EmployeesManagement.csproj|solutionrelative:employeesmanagement\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\TP Asp.net Core MVC\\EmployeesManagement\\EmployeesManagement\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EmployeesManagement\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\TP Asp.net Core MVC\\EmployeesManagement\\EmployeesManagement\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EmployeesManagement\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAqwF4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T06:17:08.336Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
